@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+           1st Page for Git Commit.
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact Us</li>
+            <li>JECRC UNIVERSITY</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <td>S.No</td>
+                    <td>1<sup>st</sup></td>
+                    <td>Method</td>
+                     <td>2<sup>no input</sup></td>
+                     <td>Output</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td id="first"></td>
+                    <td>+</td>
+                    <td id="second"></td>
+                    <td id="Output"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script>
+            let a = parseInt(prompt("Enter the value of a: "), 10);
+            let b = parseInt(prompt("Enter the value of b: "), 10);
+
+            document.getElementById("first").textContent = a;
+            document.getElementById("second").textContent = b;
+            document.getElementById("Output").textContent = "sum :" + (a+b);
+
+        </script>
+
+    </body>
+</html>
